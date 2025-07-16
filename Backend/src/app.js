@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 
 const corsOptions = {
-    origin: "https://resumaia.onrender.com",
+    origin: "https://resumai-1.onrender.com/",
     credentials: true
 };
 

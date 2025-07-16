@@ -12,13 +12,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 
+
 const corsOptions = {
-    origin: "https://resumai-1.onrender.com/",
-    credentials: true
+    origin: "https://resumai-1.onrender.com", // ✅ no trailing slash
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"]
 };
 
 app.use(cors(corsOptions));
-
+app.options("*", cors(corsOptions)); // Allow preflight
 app.use("/api/users", userRouter);
 app.use("/api/resumes", resumeRouter);
 

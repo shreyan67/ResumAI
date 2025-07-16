@@ -23,12 +23,45 @@ AI Resume Builder is a sophisticated web application that leverages artificial i
 
 ## Demo
 
-🔗 Watch a demonstration on [YouTube](https://youtu.be/IBdpMBvtZhU)  
 
-🌐 Live demo: [AI Resume Builder](https://main--ai-resume-builder-07.netlify.app/)  
+🌐 Live demo: [AI Resume Builder](https://resumai-1.onrender.com/)  
 
 ![Thumbnail](./Screenshot/Thumbnil.png)
+## Features
 
+### 1. 🔒 Secure User Authentication  
+- Custom authentication with **bcrypt** password hashing  
+- **JWT-based** session management  
+
+![Sign In](./Screenshot/SignIn.png)  
+![Sign Up](./Screenshot/SignUp.png)  
+
+### 2. 🏠 User Dashboard  
+- View and manage previous resume versions  
+
+![User Dashboard](./Screenshot/Dashboard.png)  
+
+### 3. 🎨 Customizable Templates  
+- Choose from multiple resume templates  
+
+![Template Customization](./Screenshot/ThemeCust.png)  
+
+### 4. 🤖 AI-Powered Suggestions  
+- Smart resume content suggestions  
+
+![AI Suggestions](./Screenshot/AI%20Suggestions.png)  
+
+### 5. 🔍 Live Preview  
+- See real-time resume updates  
+
+![Live Preview](./Screenshot/Screenshot%202024-07-08%20233753.png)  
+
+### 6. 📄 Export Options  
+- Download resumes in **PDF format**  
+
+![Download & Share](./Screenshot/downloadShare.png)  
+
+---
 ---
 ## Installation
 
@@ -124,41 +157,7 @@ Now, you can **choose** to set up the project **with or without Docker**.
 
 ---
 
-## Features
 
-### 1. 🔒 Secure User Authentication  
-- Custom authentication with **bcrypt** password hashing  
-- **JWT-based** session management  
-
-![Sign In](./Screenshot/SignIn.png)  
-![Sign Up](./Screenshot/SignUp.png)  
-
-### 2. 🏠 User Dashboard  
-- View and manage previous resume versions  
-
-![User Dashboard](./Screenshot/Dashboard.png)  
-
-### 3. 🎨 Customizable Templates  
-- Choose from multiple resume templates  
-
-![Template Customization](./Screenshot/ThemeCust.png)  
-
-### 4. 🤖 AI-Powered Suggestions  
-- Smart resume content suggestions  
-
-![AI Suggestions](./Screenshot/AI%20Suggestions.png)  
-
-### 5. 🔍 Live Preview  
-- See real-time resume updates  
-
-![Live Preview](./Screenshot/Screenshot%202024-07-08%20233753.png)  
-
-### 6. 📄 Export Options  
-- Download resumes in **PDF format**  
-
-![Download & Share](./Screenshot/downloadShare.png)  
-
----
 
 ## Contribution
 
